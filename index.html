@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web3 Minting Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <button onclick="connectMetamask()">Connect To Metamask</button>
+    <br />
+
+    <label for="to_mint">number of nfts to mint (1-10):</label>
+    <input
+      id="to_mint"
+      type="number"
+      name="to_mint"
+      value="1"
+      min="1"
+      max="10"
+      required
+    />
+    <br />
+    <button onclick="mint()">Mint</button>
+  </body>
+</html>
