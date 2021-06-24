@@ -325,10 +325,6 @@ const cost = "60000000000000000";
 var Web3;
 var window;
 
-function connectMetamask() {
-  console.log("connecting Metamask");
-}
-
 async function getAccounts() {
   try {
     let acc = await window.ethereum.request({
