@@ -1,4 +1,4 @@
-const mainnetContract = "0x85f740958906b317de6ed79663012859067e745b";
+const mainnetContract = "0x60D7E6f0b7de6a124aC9300E30C652e54726894f";
 
 const mainnetAbi = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
